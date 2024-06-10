@@ -1,0 +1,33 @@
+/* SignUpButton.css */
+button.auth {
+    background: linear-gradient(145deg, #383838, #161313);
+    border: 2px solid #000000;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    box-shadow: 1px 1px 2px #101010, -1px -1px 2px #3d3d3d;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  button.auth:hover {
+    background: linear-gradient(145deg, #0e0c0c, #383838);
+  }
+  
+  button.auth:active {
+    box-shadow: inset 2px 2px 4px #000000, inset -2px -2px 4px #3d3d3d;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+  body {
+      font-family: 'Abel', sans-serif;
+    
+    }
+  

@@ -1,0 +1,24 @@
+.changes p {
+    position: relative;
+}
+
+.changes {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    background: transparent !important;
+    font-size: 20px;
+    padding: 0 !important;
+
+}
+
+.changes .score {
+    font-size: 50px;
+}
+.changes .score span {
+    font-size: 20px;
+    margin-top: 35px;
+}

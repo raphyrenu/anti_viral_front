@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+    body {
+        font-family: 'Abel', sans-serif;
+      
+      }
+
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    
+}
+
+.main h1 {
+    background: linear-gradient(to right, #C2B0F2, #1B0B46 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+   
+}
+.main p {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}

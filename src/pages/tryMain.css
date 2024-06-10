@@ -1,0 +1,124 @@
+
+.trymain {
+    background-color: #000000c9;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.features {
+    box-sizing: border-box;
+    bottom: 30px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    grid-template-rows: 45% 20% 35%;
+    grid-template-areas: 
+    'first second second third'
+    'first second second sixth'
+    'first fouth fifth sixth';
+    width: 97%;
+    height: 90%;
+    grid-gap: 10px;
+    color: white;
+    
+    
+}
+
+.features div {
+    background-color: #a3a3a31b;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.activity {
+    grid-area: first;
+    padding: 20px !important;
+}
+
+.system {
+    grid-area: second;
+    
+}
+.issues {
+    grid-area: fouth;
+}
+
+.data {
+    grid-area: third;
+}
+
+.cloud {
+    grid-area: fifth;
+}
+
+.scan {
+    grid-area: sixth;
+} 
+
+.reuse {
+    color: white;
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 !important;
+   
+}
+.activity img {
+    position: relative;
+    width: 70%;
+    height: 40%;
+    z-index: 100;
+    margin-top: -10px;
+}
+.cloudss {
+    background-color: wheat;
+}
+
+p.computing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 15px;
+}
+
+p.computing span {
+    position: relative;
+}
+
+span .Ellips{
+    position: relative;
+    top: -8px;
+}
+
+span p {
+    position: relative;
+}
+span.side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+span.side p {
+    display: inline;
+}
+
+hr {
+    width: 100%;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.267);
+    color: rgba(255, 255, 255, 0.311);
+    opacity: 0.1;
+    position: relative;
+}
+#scanfinal {
+    width: 80%;
+    top: 40px;
+}

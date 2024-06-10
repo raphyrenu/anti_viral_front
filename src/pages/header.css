@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+    body {
+        font-family: 'Abel', sans-serif;
+      
+      }
+
+.header {
+    min-width: 100%;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+    position: fixed;
+    padding: 0 50px;
+
+    
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   }
+.header div {
+    position: relative;
+    display: inline;
+   }
+div.icon {
+    max-width: 100px;
+    background-color: aliceblue !important;
+    max-height: 20px;
+    z-index: 10000;
+   }
+
+   .header {
+    margin-top: 30px;
+   }

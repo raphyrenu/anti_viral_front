@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* body {
+  margin: 0;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: #000;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cube {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(145deg, #6a00ff, #9e00ff);
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5), 0 0 50px rgba(255, 0, 255, 0.3), inset 0 0 30px rgba(0, 0, 0, 0.6);
+  position: relative;
+  transform: rotateX(45deg) rotateY(45deg);
 }
+
+.cube:before, .cube:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+}
+
+.cube:before {
+  transform: rotateY(90deg);
+}
+
+.cube:after {
+  transform: rotateX(90deg);
+}
+
+.cube::before, .cube::after {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+} */
+body {
+  color: azure;
+  font-family: 'Abel', sans-serif;
+}
+
