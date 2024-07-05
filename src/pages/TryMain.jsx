@@ -16,7 +16,7 @@ function TryMain() {
           <div className="features">
               <div className="activity">
               <div className="reuse">
-                  <ReUseChange name='My activity' score='100' out='%' idea='My activity' />
+                  <ReUseChange name='My activity' score='96' out='%' idea='My activity' />
                       <LogBtn name='Weekly &nbsp;' icon={ <FaChevronDown style={{ color: 'white' }}/>} />
                   </div>
                   <img src={ring} alt="ring" /><br />
